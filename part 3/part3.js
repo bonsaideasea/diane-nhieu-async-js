@@ -73,10 +73,10 @@ button.addEventListener("click", () => {
   - promise.all() & async/wait.
  */
 
-const name = document.querySelector("#name");
-const delay = document.querySelector("#delay");
-const button = document.querySelector("#set-alarm");
-const output = document.querySelector("#output");
+const name1 = document.querySelector("#name");
+const delay1 = document.querySelector("#delay");
+const button1 = document.querySelector("#set-alarm");
+const output1 = document.querySelector("#output");
 
 function alarm(person, delay) {
   return new Promise((resolve, reject) => {
